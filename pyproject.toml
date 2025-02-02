@@ -1,0 +1,29 @@
+[project]
+name = "qualix-tz"
+version = "0.1.0"
+description = "Qualix tz"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1.5",
+]
+
+[tool.ruff]
+# Set max line length
+line-length = 80
+
+# Set size of indent
+indent-width = 4
+
+[tool.ruff.format]
+# Use double quotes for strings.
+quote-style = "double"
+
+# Indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Automatically detect the appropriate line ending.
+line-ending = "auto"
